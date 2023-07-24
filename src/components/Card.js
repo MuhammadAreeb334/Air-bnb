@@ -7,8 +7,7 @@ export default function Cards(props) {
     }
     return(
         <div className="card">
-            {badgeText = true && <div className="card-badge">{badgeText}
-        </div>}
+            {badgeText = true && <div className="card-badge">{badgeText} </div>}
             <img src= {props.items.coverImg}  className="card-img"/>
 
             <div className="card-stats">
